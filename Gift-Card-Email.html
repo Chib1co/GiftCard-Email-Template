@@ -35,6 +35,20 @@
             td.kmDesktopWrapHeaderMobileNone {
                 display: none !important
             }
+            img[align="left"] {
+                margin-right: 0
+            }
+            img[align="right"] {
+                margin-left: 0
+            }
+
+            table,
+            td {
+                border-collapse: collapse;
+                mso-table-lspace: 0;
+                mso-table-rspace: 0;
+                table-layout: fixed
+            }
 
             table.kmMobileOnly {
                 display: table !important
@@ -223,6 +237,25 @@
                 padding-left: 4px !important;
                 padding-right: 4px !important
             }
+            .footerContainer{
+                min-width:100vw;
+            }
+            .backgroundHalfBlock {
+                background-image: linear-gradient(180deg, white 50%, #E3DFD4 50%);
+                width: 100%;
+                margin: 0
+            }
+
+            #Bee1Table,
+            #Bee1Table2,
+            #Bee1Td,
+            #Bee1Td2 {
+                margin: 0 auto;
+                padding: 0
+            }
+      
+
+
         }
     </style>
     <style>
@@ -586,114 +619,7 @@
             width: 100%
         }
     </style>
-    <style>
-        @media only screen and (max-width: 480px) {
 
-            body,
-            table,
-            td,
-            p,
-            a,
-            li,
-            blockquote {
-                -webkit-text-size-adjust: none !important
-            }
-
-            body {
-                width: 100% !important;
-                min-width: 100% !important
-            }
-
-            td.kmImageContent {
-                padding-left: 0 !important;
-                padding-right: 0 !important
-            }
-
-            img.kmImage {
-                width: 100% !important
-            }
-
-            /* .kmImageBlock{background-color: #E3DFD4;}*/
-            img[align="left"] {
-                margin-right: 0
-            }
-
-            img[align="right"] {
-                margin-left: 0
-            }
-
-            table,
-            td {
-                border-collapse: collapse;
-                mso-table-lspace: 0;
-                mso-table-rspace: 0;
-                table-layout: fixed
-            }
-
-            .backgroundHalfBlock {
-                background-image: linear-gradient(180deg, white 50%, #E3DFD4 50%);
-                width: 100%;
-                margin: 0
-            }
-
-            #Bee1Table,
-            #Bee1Table2,
-            #Bee1Td,
-            #Bee1Td2 {
-                margin: 0 auto;
-                padding: 0
-            }
-        }
-
-        @media only screen and (max-width: 480px) {
-
-            body,
-            table,
-            td,
-            p,
-            a,
-            li,
-            blockquote {
-                -webkit-text-size-adjust: none !important
-            }
-
-            body {
-                width: 100% !important;
-                min-width: 100% !important
-            }
-
-            td.kmImageContent {
-                padding-left: 0 !important;
-                padding-right: 0 !important
-            }
-
-            img.kmImage {
-                width: 100% !important
-            }
-
-            /* .kmImageBlock{background-color: #E3DFD4;}*/
-            img[align="left"] {
-                margin-right: 0
-            }
-
-            img[align="right"] {
-                margin-left: 0
-            }
-
-            table,
-            td {
-                border-collapse: collapse;
-                mso-table-lspace: 0;
-                mso-table-rspace: 0;
-                table-layout: fixed
-            }
-
-            .backgroundHalfBlock {
-                background-image: linear-gradient(180deg, white 50%, #E3DFD4 50%);
-                width: 100%
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -707,7 +633,8 @@
                         <div class="templateContainerInner">
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
-                                    <td align="center" valign="top" style="padding-top:40px;">
+                                    <td align="center" valign="top"
+                                        style="padding-top:40px; max-width:100%; min-width:100%; width:100%;">
                                         <table border="0" cellpadding="0" cellspacing="0" class="templateRow"
                                             width="100%">
                                             <tbody>
@@ -956,7 +883,8 @@
                                                                                                 style="font-size: 20px;"><strong>{{gift_card.balance
                                                                                                     |
                                                                                                     money_without_trailing_zeros}}</strong>gift
-                                                                                                card.</span> </p>
+                                                                                                card.</span>
+                                                                                        </p>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -982,7 +910,8 @@
                                                                                         <h3 style="text-align: center;">
                                                                                             <span
                                                                                                 style="font-family: Helvetica; font-size: 32px; font-weight: 700;">Shop
-                                                                                                our range</span> </h3>
+                                                                                                our range</span>
+                                                                                        </h3>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -1029,7 +958,7 @@
                                                             <tbody class="kmTableBlockOuter">
                                                                 <tr>
                                                                     <td class="kmTableBlockInner"
-                                                                        style="padding-top:9px;padding-left:10px;padding-bottom:9px;padding-right:10px;"
+                                                                        style="padding-top:9px;padding-left:10px;padding-bottom:9px;padding-right:10px; max-width:100%; min-width:100%; width:100%"
                                                                         valign="top">
                                                                         <table align="left" border="0" cellpadding="0"
                                                                             cellspacing="0" class="kmTable" style=""
@@ -1067,9 +996,9 @@
                                                                                                         <img align="left"
                                                                                                             alt="Flow Hives"
                                                                                                             class="kmImage"
-                                                                                                            src="https://d3k81ch9hvuctc.cloudfront.net/company/Xf8K9S/images/f11e03f6-6e06-4e1a-a71d-d231f782c376.jpeg"
-                                                                                                            style="max-width:180px"
-                                                                                                            width="1000" />
+                                                                                                            src="https://cdn.shopify.com/s/files/1/0329/0251/2771/files/Hives_1.png?v=1627533380"
+                                                                                                            style="max-width:180px" />
+                                                                                                        <!-- width="1000" /> -->
                                                                                                     </a> </td>
                                                                                             </tr>
                                                                                         </table>
@@ -1091,9 +1020,9 @@
                                                                                                         <img align="left"
                                                                                                             alt="Flow Supers"
                                                                                                             class="kmImage"
-                                                                                                            src="https://d3k81ch9hvuctc.cloudfront.net/company/Xf8K9S/images/cbce864f-c1f0-4463-aa83-4cf49fec1efe.jpeg"
-                                                                                                            style="max-width:180px"
-                                                                                                            width="1000" />
+                                                                                                            src="https://cdn.shopify.com/s/files/1/0329/0251/2771/files/Supers_1.png?v=1627535406"
+                                                                                                            style="max-width:180px" />
+                                                                                                        <!-- width="1000" /> -->
                                                                                                     </a> </td>
                                                                                             </tr>
                                                                                         </table>
@@ -1115,9 +1044,9 @@
                                                                                                         <img align="left"
                                                                                                             alt="Flow protective wear"
                                                                                                             class="kmImage"
-                                                                                                            src="https://d3k81ch9hvuctc.cloudfront.net/company/Xf8K9S/images/f245b242-8853-46db-9b32-dd1672713cd7.jpeg"
-                                                                                                            style="max-width:180px"
-                                                                                                            width="1000" />
+                                                                                                            src="https://cdn.shopify.com/s/files/1/0329/0251/2771/files/ProtectiveGear_1.png?v=1627535420"
+                                                                                                            style="max-width:180px" />
+                                                                                                        <!-- width="1000" /> -->
                                                                                                     </a> </td>
                                                                                             </tr>
                                                                                         </table>
@@ -1518,11 +1447,12 @@
                             </table>
                         </div>
                     </div>
-                    <div class="footerContainer" style="display:table;width:600px">
+  <!--Footer start from here-->
+                    <div class="footerContainer" style="display:table; width: 100%; max-width:600px;">
                         <div class="footerContainerInner">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <table border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%; width:100%">
                                 <tr>
-                                    <td align="center" valign="top">
+                                    <td align="center" valign="top" style="max-width:100%; min-width:100%; width:100%">
                                         <table border="0" cellpadding="0" cellspacing="0" class="footerTemplateRow"
                                             width="100%">
                                             <tbody>
@@ -1642,8 +1572,9 @@
     </table>
     </td>
     </tr>
-    <tr>
-        <td align="center" valign="top">
+<!--bottom half footer start from here-->
+    <tr style="max-width:100%; min-width:100%; width:100%">
+        <td align="center" valign="top" style="max-width:100%; min-width:100%; width:100%">
             <table border="0" cellpadding="0" cellspacing="0" class="footerTemplateRow" width="100%"
                 style="background:black">
                 <tbody>
@@ -1719,7 +1650,7 @@
                                                             valign="top"></th>
                                                     </tr>
                                                 </thead>
-                                                <tbody>
+                                                <!-- <tbody>
                                                     <tr class="kmTableRow">
                                                         <td class="footerTextContent"
                                                             style="text-align:left;border-top-style:solid;padding-bottom:0px;padding-right:0px;padding-left:0px;padding-top:0px;border-top-color:#d9d9d9;border-top-width:0px"
@@ -1739,13 +1670,14 @@
                                                         <td class="footerTextContent"
                                                             style="border-right:0;text-align:left;border-top-style:solid;padding-bottom:0;padding-right:0;padding-left:0;padding-top:0;border-top-color:#d9d9d9;border-top-width:0;"
                                                             valign="top">
+                                                            
                                                             <p><span class="mobilefoot">Our mailing
                                                                     address:<br />BeeInventive<br />PO Box 303
                                                                     Bangalow<br />NSW, 2479<br />Australia<br />Email:
                                                                     info@honeyflow.com</span></p>
                                                         </td>
                                                     </tr>
-                                                </tbody>
+                                                </tbody> -->
                                             </table>
                                         </td>
                                     </tr>
@@ -1753,7 +1685,7 @@
                             </table>
                         </td>
                         <td class="rowContainer footerFloatLeft lastColumn" valign="top" width="50%">
-                            <table border="0" cellpadding="0" cellspacing="0" class="kmTableBlock kmTableMobile"
+                            <!-- <table border="0" cellpadding="0" cellspacing="0" class="kmTableBlock kmTableMobile"
                                 width="100%">
                                 <tbody class="kmTableBlockOuter">
                                     <tr>
@@ -1845,7 +1777,7 @@
                                         </td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table> -->
                             <table border="0" cellpadding="0" cellspacing="0" class="kmTableBlock kmTableMobile"
                                 width="100%">
                                 <tbody class="kmTableBlockOuter">
@@ -1964,7 +1896,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <table border="0" cellpadding="0" cellspacing="0" class="kmTextBlock kmMobileOnly"
+                            <!-- <table border="0" cellpadding="0" cellspacing="0" class="kmTextBlock kmMobileOnly"
                                 width="100%">
                                 <tbody class="kmTextBlockOuter">
                                     <tr>
@@ -1987,7 +1919,7 @@
                                         </td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table> -->
                         </td>
                     </tr>
                 </tbody>
